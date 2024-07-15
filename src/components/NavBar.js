@@ -10,7 +10,7 @@ const NavBar = () => {
       <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/edit-profile">Profile</Link></li>
-          <li><Link to="/post/1">Post</Link></li>
+          <li><Link to="/post/1">Get all Post</Link></li>
           <li>Messages</li>
           <li>Notifications</li>
           <li><Link to="/login">Login</Link></li>

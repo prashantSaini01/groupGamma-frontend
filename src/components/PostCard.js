@@ -5,7 +5,7 @@ import './PostCard.css';
 const PostCard = ({ post }) => {
   return (
     <div className="post-card">
-      <img className="post-image" src={post.imageUrl} alt={post.title} />
+      <img className="post-image" src={post.img} alt={post.title} />
       <div className="post-content">
         <h2 className="post-title">{post.title}</h2>
         <p className="post-text">{post.content}</p>
